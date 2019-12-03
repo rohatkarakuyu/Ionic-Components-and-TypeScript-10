@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class Tab2Page {
 
   constructor() {}
-
+  showAlert() {
+    alert("Testing the alert pop up.");
+    }
 }
